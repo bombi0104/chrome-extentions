@@ -1,0 +1,14 @@
+{
+  "name": "Incognito this tab",
+  "version": "1.0",
+  "description": "Open current tab in Incognito mode!",
+  "manifest_version": 2,
+  "permissions": ["activeTab", "tabs"],
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
